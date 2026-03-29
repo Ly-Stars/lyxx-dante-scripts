@@ -21,10 +21,10 @@ chmod +x dante-multi-ip.sh
 ```bash
 # 示例：3个IP，端口13688
 ./dante-multi-ip.sh \
-    --ip=47.243.87.11:47.76.45.140:8.217.164.53 \
+    --ip=你的IP1:你的IP2:你的IP3 \
     --port=13688 \
-    --user=myuser \
-    --passwd=mypassword
+    --user=用户名 \
+    --passwd=密码
 ```
 
 ### 3. 参数说明
@@ -48,20 +48,20 @@ chmod +x dante-multi-ip.sh
 
 ```bash
 ./dante-multi-ip.sh \
-    --ip=47.243.87.11 \
+    --ip=你的公网IP \
     --port=13688 \
-    --user=xxxrrr \
-    --passwd=xx12RR
+    --user=用户名 \
+    --passwd=密码
 ```
 
 ### 3个IP
 
 ```bash
 ./dante-multi-ip.sh \
-    --ip=47.243.87.11:47.76.45.140:8.217.164.53 \
+    --ip=公网IP1:公网IP2:公网IP3 \
     --port=13688 \
-    --user=xxxrrr \
-    --passwd=xx12RR
+    --user=用户名 \
+    --passwd=密码
 ```
 
 ## 客户端配置
