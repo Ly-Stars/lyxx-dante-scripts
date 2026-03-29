@@ -19,10 +19,10 @@ chmod +x dante-multi-ip.sh
 ### 2. 部署
 
 ```bash
-# 示例：3个IP，端口13688
+# 示例：3个IP，端口1368
 ./dante-multi-ip.sh \
     --ip=你的IP1:你的IP2:你的IP3 \
-    --port=13688 \
+    --port=1368 \
     --user=用户名 \
     --passwd=密码
 ```
@@ -32,7 +32,7 @@ chmod +x dante-multi-ip.sh
 | 参数 | 说明 | 示例 |
 |------|------|------|
 | `--ip` | 公网IP列表（用冒号分隔） | `--ip=1.1.1.1:2.2.2.2:3.3.3.3` |
-| `--port` | 端口（默认13688） | `--port=13688` |
+| `--port` | 端口（默认1368） | `--port=1368` |
 | `--user` | 用户名 | `--user=admin` |
 | `--passwd` | 密码 | `--passwd=123456` |
 
@@ -49,7 +49,7 @@ chmod +x dante-multi-ip.sh
 ```bash
 ./dante-multi-ip.sh \
     --ip=你的公网IP \
-    --port=13688 \
+    --port=1368 \
     --user=用户名 \
     --passwd=密码
 ```
@@ -59,7 +59,7 @@ chmod +x dante-multi-ip.sh
 ```bash
 ./dante-multi-ip.sh \
     --ip=公网IP1:公网IP2:公网IP3 \
-    --port=13688 \
+    --port=1368 \
     --user=用户名 \
     --passwd=密码
 ```
@@ -70,7 +70,7 @@ chmod +x dante-multi-ip.sh
 |--------|-----|
 | 代理类型 | SOCKS5 |
 | 地址 | 你的公网IP |
-| 端口 | 13688 |
+| 端口 | 1368 |
 | 用户名 | 部署时指定的用户名 |
 | 密码 | 部署时指定的密码 |
 
