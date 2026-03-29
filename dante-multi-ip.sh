@@ -5,7 +5,7 @@
 #
 
 VERSION="1.0"
-DEFAULT_PORT="13688"
+DEFAULT_PORT="1368"
 DEFAULT_USER=""
 DEFAULT_PASSWD=""
 
@@ -29,7 +29,7 @@ show_help() {
     echo "  --uninstall         Uninstall"
     echo ""
     echo "Example:"
-    echo "  $0 --ip=1.2.3.4:5.6.7.8:9.10.11.12 --port=13688 --user=myuser --passwd=mypass"
+    echo "  $0 --ip=1.2.3.4:5.6.7.8:9.10.11.12 --port=1368 --user=myuser --passwd=mypass"
     exit 1
 }
 
